@@ -1,8 +1,0 @@
-.venv/
-.env
-instance/
-__pycache__/
-.pytest_cache/
-*.py[cod]
-.DS_Store
-node_modules/
