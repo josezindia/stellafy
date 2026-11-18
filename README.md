@@ -77,32 +77,69 @@ The customer pays nothing extra. Part of the commission supports their selected 
 
 ### 3. Fork and clone the repository
 
-Fork this repository to your GitHub account and clone your copy.
+1. Open the [Stellafy repository](https://github.com/josezindia/stellafy).
+2. Click **Fork** in the top-right corner.
+3. Click **Create fork** to create your own copy.
+
+#### Clone using VS Code (Recommended)
+
+1. Open Visual Studio Code.
+2. Open the Command Palette:
+   - Windows: `Ctrl + Shift + P`
+   - macOS: `Cmd + Shift + P`
+3. Search for `Git: Clone` and select it.
+4. Enter your forked repository URL:
+
+   https://github.com/YOUR-USERNAME/stellafy.git
+
+5. Choose a folder on your computer.
+6. Click **Open** when VS Code asks you to open the cloned repository.
+
+#### Alternatively, clone using the terminal
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/stellafy.git
 cd stellafy
+code .
 ```
+
+Replace `YOUR-USERNAME` with your GitHub username.
+
+If `code .` doesn't work, open VS Code manually and select
+**File → Open Folder → stellafy**.
 
 ### 4. Set up Python
 
-Once the starter configuration is available:
+In VS Code, open **Terminal → New Terminal**.
+
+Once the project configuration (`pyproject.toml`) is available, run:
 
 ```bash
 uv sync
 ```
 
-Copy `.env.example` to `.env` and follow the configuration provided.
+This creates your Python environment and installs the required dependencies.
+
+If `.env.example` is available, copy it to `.env` and follow
+the configuration provided.
+
+Never commit your `.env` file to GitHub.
 
 ### 5. Run the application
 
-Once the starter application is available:
+Once the application (`run.py`) is available, run:
 
 ```bash
 uv run python run.py
 ```
 
 Open http://127.0.0.1:5000 in your browser.
+
+If the Stellafy homepage appears, your development environment
+is ready.
+
+To stop the application, press `Ctrl + C` in your terminal.
+
 
 ## Project Structure
 
