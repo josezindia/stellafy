@@ -65,7 +65,7 @@ The customer pays nothing extra. Part of the commission supports their selected 
 - [GitHub](https://github.com/)
 - [GitHub Student Developer Pack](https://github.com/settings/education/benefits)
 - [Figma](https://www.figma.com/)
-- [Jira](https://afrotech.atlassian.net))
+- [Jira](https://afrotech.atlassian.net)
 
 ### 2. Install your development tools
 
